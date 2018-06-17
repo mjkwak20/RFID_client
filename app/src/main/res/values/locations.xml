@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_10">Main School</string>
+    <string name="location_11">Cafeteria</string>
+    <string name="location_12">PAC</string>
+    <string name="location_13">Medical Centre</string>
+    <!-- Boarding Houses | code -->
+    <string name="location_70">Harubang</string>
+    <string name="location_71">Geomun</string>
+    <string name="location_72">Mulchat</string>
+    <string name="location_73">Sarah</string>
+    <string name="location_74">Noro</string>
+    <string name="location_75">Jeoji</string>
+    <string name="location_76">Halla North</string>
+    <string name="location_77">Halla East</string>
+    <!-- Off site | code -->
+    <string name="location_100">C.U.</string>
+    <string name="location_101">Pizza Alvolo</string>
+    <string name="location_102">a</string>
+    <string name="location_103">Exeat</string>
+    <string name="location_104">Jeju City</string>
+    <string name="location_105">Off site</string>
+</resources>

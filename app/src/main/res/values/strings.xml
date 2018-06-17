@@ -1,0 +1,13 @@
+<resources>
+    <string name="update_check">Checking for updates&#8230;</string>
+    <string name="updating">Downloading updates&#8230;</string>
+
+    <string name="app_name">Sign in</string>
+    <string name="signin_button">Sign in</string>
+    <string name="signout_button">Sign out</string>
+    <string name="current_location">You are currently in %s.</string>
+    <string name="status_default">Tap your ID card to sign in.</string>
+    <string name="status_success_signin">Successfully signed in.</string>
+    <string name="student_name">Student Name</string>
+    <string name="previous_location">Previous location</string>
+</resources>

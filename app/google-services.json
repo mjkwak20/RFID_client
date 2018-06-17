@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883791066222",
+    "firebase_url": "https://nlcs-jeju-sign-in.firebaseio.com",
+    "project_id": "nlcs-jeju-sign-in",
+    "storage_bucket": "nlcs-jeju-sign-in.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883791066222:android:f57c361be3f91758",
+        "android_client_info": {
+          "package_name": "nlcsjeju.signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883791066222-vcbtqecgtr25e8cpbpqe1upfa3lmptss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nlcsjeju.signin",
+            "certificate_hash": "22cdc35ae9e58c6a64f4b24edc220d2a297a1f72"
+          }
+        },
+        {
+          "client_id": "883791066222-hfbrdp9dhgjv01si78f8qncn4tao247d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB01ZEmYKQbvPHTlKkSGUstoyOQD6Yq2f4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883791066222-hfbrdp9dhgjv01si78f8qncn4tao247d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

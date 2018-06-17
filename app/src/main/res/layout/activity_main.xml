@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="nlcsjeju.signin.MainActivity">
+
+    <TextView
+        android:id="@+id/currentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_weight="1"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:text="@string/current_location" />
+
+    <LinearLayout
+        android:id="@+id/studentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14pt"
+            android:textStyle="bold"
+            android:text="Student Name Here"
+            tools:text="Student Name Here" />
+
+
+        <TextView
+            android:id="@+id/previousLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="7pt"
+            android:text="@string/previous_location" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/signout_button"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:text="@string/status_default"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/signout_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        android:onClick="onSignout"
+        android:textSize="9pt"
+        android:layout_alignParentStart="true"
+        android:text="@string/signout_button" />
+
+
+
+    <EditText
+        android:id="@+id/uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/currentLocation"
+        android:layout_marginStart="75dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:textColor="#FFFFFFFF"
+        android:textIsSelectable="true"
+        tools:hint="UID Here"
+        tools:visibility="visible"/>
+
+</android.support.constraint.ConstraintLayout>
